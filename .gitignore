@@ -1,0 +1,35 @@
+# Python
+backend/venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.env
+.env.local
+.env.*.local
+
+# API Keys (never commit these)
+*.key
+secrets.py
+
+# Next.js / Node
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# Build outputs
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
